@@ -411,6 +411,15 @@
       }
     }
   }
+  @include responsive(1200px){
+    .left-area {
+      .ilustra-mockup{
+        .circle{
+          display: none;
+        }
+      }
+    }
+  }
 }
 
 .s-depoimentos {
