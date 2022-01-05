@@ -846,5 +846,24 @@ margin: 0 auto;
         }
       }
     }
+    .image {
+      max-width: 35.7rem;
+      height: 46.9rem;
+      img {
+        &.mockup-01,
+        &.mochup-02{
+          max-width: 16.8rem;
+        }
+        &.mockup-01 {
+          bottom: initial;
+          top: 5.8rem;
+        }
+        &.mockup-02{
+          left: initial;
+          top: 0;
+          right: 0;
+        }
+      }
+    }
   }
 }
