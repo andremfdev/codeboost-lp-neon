@@ -653,6 +653,7 @@
   }
   @include responsive(991px) {
     .top {
+      display: flex;
       flex-direction: column;
       align-items: center;
       margin-bottom: 5.1rem;
