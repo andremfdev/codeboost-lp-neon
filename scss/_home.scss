@@ -877,18 +877,4 @@
       }
     }
   }
- }
-
-@keyframes flooating {
-  0% {
-    transform: translateY(0);
-  }
-  66% {
-    transform: translateY(-15px);
-
-  }
-  100% {
-    transform: translateY(0);
-
-  }
 }
